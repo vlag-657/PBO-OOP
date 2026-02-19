@@ -16,7 +16,7 @@ class User {
     public void setPekerjaan(String pekerjaan){
         this.pekerjaan = pekerjaan;
     }
-
+//getter
     public static void main(String[] args){
         User user1 = new User();
         user1.setNama("Muhammad Adistya Rafif Rasendriya");
@@ -24,7 +24,7 @@ class User {
         user1.setUsia(19);
         user1.setPekerjaan("Mahasiswa");
         System.out.printf("User 1 Nama: %s\nID: %s\nUsia: %d\nPekerjaan: %s\n", user1.nama, user1.id, user1.usia, user1.pekerjaan);
-
+//setter
         User user2 = new User();
         user2.nama = "Daffa Hafist Atha Kuncoro";
         user2.id = "254311025";
